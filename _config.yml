@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
 title: Hello World! 
-description: 
-<body>
+description: <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
 </body>
