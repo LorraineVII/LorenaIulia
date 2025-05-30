@@ -8,7 +8,7 @@
 </script>
 Bine ai venit la lab 
 <button onclick="alertCookie()">Show cookies</button> 
-  <h2>Example 1: Simple usage</h2>
+  <p>Example 1: Simple usage</p>
 <script> 
   document.cookie = "name=Oeschger; SameSite=None; Secure";
 document.cookie = "favorite_food=tripe; SameSite=None; Secure";
@@ -30,7 +30,7 @@ function clearOutputCookies() {
   <code id="cookies"></code>
 </div>
 
-  <h3>Example 2: Get a sample cookie named test2</h3>
+  <p>Example 2: Get a sample cookie named test2</p>
 <script>
  document.cookie = "test1=Hello; SameSite=None; Secure";
 document.cookie = "test2=World; SameSite=None; Secure";
@@ -58,7 +58,7 @@ function clearOutputCookieValue() {
   <code id="cookie-value"></code>
 </div>
 
-<h4>Example 3: Do something only once</h4>
+<p>Example 3: Do something only once</p>
 <script>
   function doOnce() {
   if (
@@ -92,7 +92,7 @@ function clearOutputDoOnce() {
   <code id="do-once"></code>
 </div>
 
- <h5>Example 4: Reset the previous cookie </h5>
+ <p>Example 4: Reset the previous cookie </p>
   <script>
     function resetOnce() {
   // Note that we are setting `SameSite=None;` in this example because the example
@@ -119,7 +119,7 @@ function clearOutputResetOnce() {
   <code id="reset-once"></code>
 </div>
 
-  <h6> Example 5: Check a cookie existence  </h6>
+  <p> Example 5: Check a cookie existence  </p>
   <script>
     document.cookie = "reader=1; SameSite=None; Secure";
 
