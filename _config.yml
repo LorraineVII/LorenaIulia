@@ -1,6 +1,10 @@
 theme: jekyll-theme-minimal
 title: Hello World! 
 description: 
+<body>
+<h1>Hello World</h1>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
 <script> document.cookie = "session=test GDPR"; 
 document.cookie = "favorite_task=collect Data"; 
 function alertCookie() { alert(document.cookie); } 
